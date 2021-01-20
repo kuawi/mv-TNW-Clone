@@ -1,17 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+
 * {
   padding: 0;
   margin: 0;
 }
 
+body {
+  width: 100vw;
+}
+
 /* navigation bar */
 
 nav {
-  width: 100vw;
+  width: 100%;
   height: 48px;
 }
 
 .bottom-nav {
   position: fixed;
+  background-color: white;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -52,4 +59,65 @@ nav {
   height: 48px;
   width: 48px;
   border-left: 1px solid #f4f4f4;
+}
+
+/* header  */
+
+header {
+  width: 100vw;
+}
+
+.header1,
+.header2,
+.header3 {
+  height: 140px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.header1::after,
+.header2::after,
+.header3::after {
+  content:'';
+  width:100%;
+  height:100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header1 {
+  background-image: url(/src/header1.jpeg);
+}
+
+.header2 {
+  background-image: url(/src/header2.jpeg);
+}
+
+.header3 {
+  background-image: url(/src/header3.jpeg);
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.5);  
+  color: white;
+  padding: 8px;
+}
+
+.topic {
+  text-transform: uppercase;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.author {
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
 }

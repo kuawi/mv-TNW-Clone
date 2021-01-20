@@ -8,6 +8,7 @@
 
 body {
   width: 100vw;
+  font-family: Helvetica, sans-serif;
 }
 
 h2 {
@@ -16,7 +17,7 @@ h2 {
   line-height: 30.8px;
   color: #ff4422;
   padding-top: 30px;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 section {
@@ -32,9 +33,15 @@ li {
   display: inline-block;
 }
 
-.time {
+a {
+  text-decoration: none;
+}
+
+.time,
+.source {
   font-size: 12px;
   font-weight: 400;
+  font-family: sans-serif;
   color: #aaa;
 }
 
@@ -210,4 +217,119 @@ header {
   background-image: url(/src/latest8.jpeg);
 }
 
+/* funding rounds section */
 
+.funding-rounds-link {
+  display: block;
+  margin-top: 11px;
+  color: rgb(255, 68, 34);
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.funding-rounds-link:hover {
+  color: black;
+}
+
+.company-info{
+  position: relative;
+  background-color: #fffaf8;
+  margin-top: 20px;
+}
+
+.main-info {
+}
+
+.company-logo {
+  position: absolute;
+  top: 5%;
+  left: 7.5%;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.company-name {
+  background-color: #ff4422;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  padding: 11px 0 11px 40%;
+}
+
+.amount {
+  background-color: #ffebe7; 
+  height: 60px;
+  padding: 11px 0 11px 40%;
+}
+
+.money {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+.series {
+  font-size: 11px;
+  font-weight: 500px;
+  opacity: 0.5;
+  line-height: 16.5px;  
+}
+
+.tag-container {
+  padding: 16px;
+}
+
+.tag {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.tag-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  padding-left: 10px;
+}
+
+.tag-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.tag-icon {
+  background-image: url(/src/tag.svg);
+}
+
+.briefcase-icon {
+  background-image: url(/src/briefcase.svg);
+}
+
+.round-info {
+  border-top: 1px solid #fcd4cd;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+  padding: 16px;
+  padding-top: 10px;
+}
+
+#company-1 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1082544001302126592%2FDZPlZneA.jpg&signature=b0ffbb4dbc851b73a68a52564316a4cf");
+}
+
+#company-2 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1303728426877161477%2FNb5ckT_Y.jpg&signature=36cc8c2bc3c89394763de7482b69833c");
+}
+
+#company-3 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F883399784370905091%2FibHr3ZXO.jpg&signature=53a682666e9895102abafc81d692ee40");
+}

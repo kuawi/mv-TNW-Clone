@@ -37,6 +37,10 @@ a {
   text-decoration: none;
 }
 
+.hidden-on-mobile {
+  display: none;
+}
+
 .time,
 .source {
   font-size: 12px;
@@ -334,4 +338,8 @@ header {
 
 #company-3 {
   background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F883399784370905091%2FibHr3ZXO.jpg&signature=53a682666e9895102abafc81d692ee40");
+}
+
+#company-4 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1338631156921561088%2FDqf2Wp7I.jpg&signature=e4aa39ea4aeaa28966fe140d5d387033");
 }

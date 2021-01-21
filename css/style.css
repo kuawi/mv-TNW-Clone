@@ -347,3 +347,46 @@ header {
 #company-4 {
   background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1338631156921561088%2FDqf2Wp7I.jpg&signature=e4aa39ea4aeaa28966fe140d5d387033");
 }
+
+/* footer */
+
+footer {
+  width: 100vw;
+}
+
+.top-footer {
+  width: 100%;
+  height: 160px;
+  background-color: #131313;
+}
+
+.bottom-footer {
+  width: 100%;
+  padding: 32.5px 0;
+  background-color: black;
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
+}
+
+#footer-tnw,
+#footer-stackpath {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#footer-tnw {
+  width: 38px;
+  height: 9px;
+  background-image: url(/src/tnw-logo.png);
+}
+
+#footer-stackpath {
+  width: 65px;
+  height: 9px;
+  background-image: url(/src/stackpath.svg);
+}

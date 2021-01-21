@@ -537,6 +537,67 @@ footer {
   background-color: #131313;
 }
 
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #323232;
+  width: 40px;
+  height: 40px;
+  margin: 30px 2px;
+  padding: 12px;
+}
+
+.icon-16x16 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+#c1 {
+  background-image: url(/src/social-media/facebook.svg);
+}
+
+#c2 {
+  background-image: url(/src/social-media/twitter.svg);
+}
+
+#c3 {
+  background-image: url(/src/social-media/youtube.svg);
+}
+
+#c4 {
+  background-image: url(/src/social-media/instagram.svg);
+}
+
+#c5 {
+  background-image: url(/src/social-media/pinterest.svg);
+}
+
+#c6 {
+  background-image: url(/src/social-media/rss.svg);
+}
+
+#c7 {
+  background-image: url(/src/social-media/mail.svg);
+}
+
+.footer-link-wrapper {
+  text-align: center;
+}
+
+.footer-link {
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 3px;
+}
+
 .bottom-footer {
   width: 100%;
   padding: 32.5px 0;

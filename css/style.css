@@ -117,7 +117,7 @@ header {
 .header2,
 .header3,
 .main-link {
-  height: 140px;
+  height: 28vh;
   background-size: cover;
   background-repeat: no-repeat;
   display: flex;

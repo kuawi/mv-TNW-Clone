@@ -43,6 +43,7 @@ a {
 
 .time,
 .source {
+  display: inline;
   font-size: 12px;
   font-weight: 400;
   font-family: sans-serif;
@@ -114,7 +115,8 @@ header {
 
 .header1,
 .header2,
-.header3 {
+.header3,
+.main-link {
   height: 140px;
   background-size: cover;
   background-repeat: no-repeat;
@@ -129,7 +131,8 @@ header {
 
 .header1::after,
 .header2::after,
-.header3::after {
+.header3::after, 
+.main-link::after {
   content: '';
   width: 100%;
   height: 100%;
@@ -154,7 +157,8 @@ header {
   padding: 8px;
 }
 
-.topic {
+.topic,
+.most-popular {
   text-transform: uppercase;
   font-family: Rajdhani, sans-serif;
   font-weight: 800;
@@ -162,6 +166,7 @@ header {
 }
 
 .author {
+  display: inline;
   font-size: 11px;
   color: rgba(255, 255, 255, 0.6);
   font-weight: 400;
@@ -348,6 +353,128 @@ header {
   background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1338631156921561088%2FDqf2Wp7I.jpg&signature=e4aa39ea4aeaa28966fe140d5d387033");
 }
 
+/* sorted by topic section */
+
+.inner-h2 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.main-link {
+  height: 250px;
+  margin: 0;
+}
+
+.latest,
+.float-img {
+  height: 96px;
+}
+
+.latest {
+  color: rgb(255, 68, 34);
+  background-color: #fff4f2;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.float-img {
+  float: right;
+  width: 96px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.topic-item {
+  padding: 10px 1em;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.topic-item::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#topic-1 {
+  background-image: url(/src/sorted-by-topic/hard-fork.jpeg);
+}
+
+#topic-2 {
+  background-image: url(/src/sorted-by-topic/apps.png);
+}
+
+#topic-3 {
+  background-image: url(/src/sorted-by-topic/gear.jpeg);
+}
+
+#topic-4 {
+  background-image: url(/src/sorted-by-topic/tech.jpeg);
+}
+
+#topic-5 {
+  background-image: url(/src/sorted-by-topic/creative.png);
+}
+
+#topic-6 {
+  background-image: url(/src/sorted-by-topic/podium.jpeg);
+}
+
+#topic-7 {
+  background-image: url(/src/sorted-by-topic/insights.png);
+}
+
+#topic-8 {
+  background-image: url(/src/sorted-by-topic/launch.jpeg);
+}
+
+#topic-9 {
+  background-image: url(/src/sorted-by-topic/distract.jpeg);
+}
+
+#thumb-1 {
+  background-image: url(/src/sorted-by-topic/hard-fork-thumb.jpeg);
+}
+
+#thumb-2 {
+  background-image: url(/src/sorted-by-topic/apps-thumb.jpeg);
+}
+
+#thumb-3 {
+  background-image: url(/src/sorted-by-topic/gear-thumb.jpeg);
+}
+
+#thumb-4 {
+  background-image: url(/src/sorted-by-topic/tech-thumb.jpeg);
+}
+
+#thumb-5 {
+  background-image: url(/src/sorted-by-topic/creative-thumb.jpeg);
+}
+
+#thumb-6 {
+  background-image: url(/src/sorted-by-topic/podium-thumb.jpeg);
+}
+
+#thumb-7 {
+  background-image: url(/src/sorted-by-topic/insights-thumb.jpeg);
+}
+
+#thumb-8 {
+  background-image: url(/src/sorted-by-topic/launch-thumb.jpeg);
+}
+
+#thumb-9 {
+  background-image: url(/src/sorted-by-topic/distract-thumb.jpeg);
+}
+
 /* footer */
 
 footer {
@@ -390,3 +517,5 @@ footer {
   height: 9px;
   background-image: url(/src/stackpath.svg);
 }
+
+/* below are rules using cascade for predominance */

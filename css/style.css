@@ -131,7 +131,7 @@ header {
 
 .header1::after,
 .header2::after,
-.header3::after, 
+.header3::after,
 .main-link::after {
   content: '';
   width: 100%;
@@ -493,35 +493,35 @@ header {
   margin-bottom: 30px;
 }
 
-#deal1{
+#deal1 {
   background-image: url(/src/deals/deal1.jpeg);
 }
 
-#deal2{
+#deal2 {
   background-image: url(/src/deals/deal2.jpeg);
 }
 
-#deal3{
+#deal3 {
   background-image: url(/src/deals/deal3.jpeg);
 }
 
-#deal4{
+#deal4 {
   background-image: url(/src/deals/deal4.jpeg);
 }
 
-#deal5{
+#deal5 {
   background-image: url(/src/deals/deal5.jpeg);
 }
 
-#deal6{
+#deal6 {
   background-image: url(/src/deals/deal6.jpeg);
 }
 
-#deal7{
+#deal7 {
   background-image: url(/src/deals/deal7.jpeg);
 }
 
-#deal8{
+#deal8 {
   background-image: url(/src/deals/deal8.jpeg);
 }
 

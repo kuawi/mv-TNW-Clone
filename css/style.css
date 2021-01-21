@@ -475,6 +475,56 @@ header {
   background-image: url(/src/sorted-by-topic/distract-thumb.jpeg);
 }
 
+/* latest deals section */
+
+.all-deals {
+  float: right;
+  font-size: 14px;
+  color: rgb(255, 68, 34);
+  font-weight: 400;
+}
+
+.crossed {
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+.latest-deals {
+  margin-bottom: 30px;
+}
+
+#deal1{
+  background-image: url(/src/deals/deal1.jpeg);
+}
+
+#deal2{
+  background-image: url(/src/deals/deal2.jpeg);
+}
+
+#deal3{
+  background-image: url(/src/deals/deal3.jpeg);
+}
+
+#deal4{
+  background-image: url(/src/deals/deal4.jpeg);
+}
+
+#deal5{
+  background-image: url(/src/deals/deal5.jpeg);
+}
+
+#deal6{
+  background-image: url(/src/deals/deal6.jpeg);
+}
+
+#deal7{
+  background-image: url(/src/deals/deal7.jpeg);
+}
+
+#deal8{
+  background-image: url(/src/deals/deal8.jpeg);
+}
+
 /* footer */
 
 footer {
@@ -517,5 +567,3 @@ footer {
   height: 9px;
   background-image: url(/src/stackpath.svg);
 }
-
-/* below are rules using cascade for predominance */

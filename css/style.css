@@ -759,6 +759,18 @@ footer {
     width: 100%;
     height: 100%;
   }
+
+  /* funding rounds */
+
+  .funding-rounds-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .tag-container {
+    height: 35%;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -788,5 +800,37 @@ footer {
 
   .latest-news-container-img {
     height: 25vh;
+  }
+
+  /* funding rounds */
+
+  .funding-rounds {
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .funding-rounds-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .h2-funding {
+    display: inline;
+  }
+
+  .funding-rounds-link-container {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+  }
+
+  .funding-rounds-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .center-link {
+    border-left: 1px solid rgb(255, 68, 34);
+    border-right: 1px solid rgb(255, 68, 34);
   }
 }

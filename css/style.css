@@ -771,6 +771,15 @@ footer {
   .tag-container {
     height: 35%;
   }
+
+  /* sorted by topic */
+
+  .sorted-by-topic{
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
 }
 
 @media (min-width: 1200px) {
@@ -832,5 +841,11 @@ footer {
   .center-link {
     border-left: 1px solid rgb(255, 68, 34);
     border-right: 1px solid rgb(255, 68, 34);
+  }
+
+  /* sorted by topic */
+
+  .sorted-by-topic{
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }

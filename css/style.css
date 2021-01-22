@@ -780,6 +780,26 @@ footer {
     grid-template-columns: 1fr 1fr;
     gap: 15px;
   }
+
+  /* latest deals */
+
+  .latest-deals {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  #deal1,
+  #deal2,
+  #deal3,
+  #deal4,
+  #deal5,
+  #deal6,
+  #deal7,
+  #deal8 {
+    width: 100%;
+    height: 100%;
+  }
+
 }
 
 @media (min-width: 1200px) {

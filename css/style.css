@@ -117,7 +117,7 @@ a {
 .logo {
   height: 48px;
   width: 106px;
-  background-image: url(/src/tnw-logo.png);
+  background-image: url(../src/tnw-logo.png);
   background-color: black;
   background-size: 66px 16px;
   background-repeat: no-repeat;
@@ -136,14 +136,14 @@ a {
 }
 
 .search {
-  background-image: url(/src/search.svg);
+  background-image: url(../src/search.svg);
   background-size: 34%;
   background-position: center;
   background-repeat: no-repeat;
 }
 
 .burger {
-  background-image: url(/src/menu.svg);
+  background-image: url(../src/menu.svg);
   background-size: 40%;
   background-position: center;
   background-repeat: no-repeat;
@@ -190,15 +190,15 @@ header {
 }
 
 .header1 {
-  background-image: url(/src/header1.jpeg);
+  background-image: url(../src/header1.jpeg);
 }
 
 .header2 {
-  background-image: url(/src/header2.jpeg);
+  background-image: url(../src/header2.jpeg);
 }
 
 .header3 {
-  background-image: url(/src/header3.jpeg);
+  background-image: url(../src/header3.jpeg);
 }
 
 .description {
@@ -253,35 +253,35 @@ header {
 }
 
 #latest1 {
-  background-image: url(/src/latest1.jpeg);
+  background-image: url(../src/latest1.jpeg);
 }
 
 #latest2 {
-  background-image: url(/src/latest2.jpeg);
+  background-image: url(../src/latest2.jpeg);
 }
 
 #latest3 {
-  background-image: url(/src/latest3.jpeg);
+  background-image: url(../src/latest3.jpeg);
 }
 
 #latest4 {
-  background-image: url(/src/latest4.jpeg);
+  background-image: url(../src/latest4.jpeg);
 }
 
 #latest5 {
-  background-image: url(/src/latest5.jpeg);
+  background-image: url(../src/latest5.jpeg);
 }
 
 #latest6 {
-  background-image: url(/src/latest6.jpeg);
+  background-image: url(../src/latest6.jpeg);
 }
 
 #latest7 {
-  background-image: url(/src/latest7.jpeg);
+  background-image: url(../src/latest7.jpeg);
 }
 
 #latest8 {
-  background-image: url(/src/latest8.jpeg);
+  background-image: url(../src/latest8.jpeg);
 }
 
 /* funding rounds section */
@@ -371,11 +371,11 @@ header {
 }
 
 .tag-img {
-  background-image: url(/src/tag.svg);
+  background-image: url(../src/tag.svg);
 }
 
 .briefcase-img {
-  background-image: url(/src/briefcase.svg);
+  background-image: url(../src/briefcase.svg);
 }
 
 .round-info {
@@ -454,75 +454,75 @@ header {
 }
 
 #topic-1 {
-  background-image: url(/src/sorted-by-topic/hard-fork.jpeg);
+  background-image: url(../src/sorted-by-topic/hard-fork.jpeg);
 }
 
 #topic-2 {
-  background-image: url(/src/sorted-by-topic/apps.png);
+  background-image: url(../src/sorted-by-topic/apps.png);
 }
 
 #topic-3 {
-  background-image: url(/src/sorted-by-topic/gear.jpeg);
+  background-image: url(../src/sorted-by-topic/gear.jpeg);
 }
 
 #topic-4 {
-  background-image: url(/src/sorted-by-topic/tech.jpeg);
+  background-image: url(../src/sorted-by-topic/tech.jpeg);
 }
 
 #topic-5 {
-  background-image: url(/src/sorted-by-topic/creative.png);
+  background-image: url(../src/sorted-by-topic/creative.png);
 }
 
 #topic-6 {
-  background-image: url(/src/sorted-by-topic/podium.jpeg);
+  background-image: url(../src/sorted-by-topic/podium.jpeg);
 }
 
 #topic-7 {
-  background-image: url(/src/sorted-by-topic/insights.png);
+  background-image: url(../src/sorted-by-topic/insights.png);
 }
 
 #topic-8 {
-  background-image: url(/src/sorted-by-topic/launch.jpeg);
+  background-image: url(../src/sorted-by-topic/launch.jpeg);
 }
 
 #topic-9 {
-  background-image: url(/src/sorted-by-topic/distract.jpeg);
+  background-image: url(../src/sorted-by-topic/distract.jpeg);
 }
 
 #thumb-1 {
-  background-image: url(/src/sorted-by-topic/hard-fork-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/hard-fork-thumb.jpeg);
 }
 
 #thumb-2 {
-  background-image: url(/src/sorted-by-topic/apps-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/apps-thumb.jpeg);
 }
 
 #thumb-3 {
-  background-image: url(/src/sorted-by-topic/gear-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/gear-thumb.jpeg);
 }
 
 #thumb-4 {
-  background-image: url(/src/sorted-by-topic/tech-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/tech-thumb.jpeg);
 }
 
 #thumb-5 {
-  background-image: url(/src/sorted-by-topic/creative-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/creative-thumb.jpeg);
 }
 
 #thumb-6 {
-  background-image: url(/src/sorted-by-topic/podium-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/podium-thumb.jpeg);
 }
 
 #thumb-7 {
-  background-image: url(/src/sorted-by-topic/insights-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/insights-thumb.jpeg);
 }
 
 #thumb-8 {
-  background-image: url(/src/sorted-by-topic/launch-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/launch-thumb.jpeg);
 }
 
 #thumb-9 {
-  background-image: url(/src/sorted-by-topic/distract-thumb.jpeg);
+  background-image: url(../src/sorted-by-topic/distract-thumb.jpeg);
 }
 
 /* latest deals section */
@@ -544,35 +544,35 @@ header {
 }
 
 #deal1 {
-  background-image: url(/src/deals/deal1.jpeg);
+  background-image: url(../src/deals/deal1.jpeg);
 }
 
 #deal2 {
-  background-image: url(/src/deals/deal2.jpeg);
+  background-image: url(../src/deals/deal2.jpeg);
 }
 
 #deal3 {
-  background-image: url(/src/deals/deal3.jpeg);
+  background-image: url(../src/deals/deal3.jpeg);
 }
 
 #deal4 {
-  background-image: url(/src/deals/deal4.jpeg);
+  background-image: url(../src/deals/deal4.jpeg);
 }
 
 #deal5 {
-  background-image: url(/src/deals/deal5.jpeg);
+  background-image: url(../src/deals/deal5.jpeg);
 }
 
 #deal6 {
-  background-image: url(/src/deals/deal6.jpeg);
+  background-image: url(../src/deals/deal6.jpeg);
 }
 
 #deal7 {
-  background-image: url(/src/deals/deal7.jpeg);
+  background-image: url(../src/deals/deal7.jpeg);
 }
 
 #deal8 {
-  background-image: url(/src/deals/deal8.jpeg);
+  background-image: url(../src/deals/deal8.jpeg);
 }
 
 /* footer */
@@ -610,31 +610,31 @@ footer {
 }
 
 #c1 {
-  background-image: url(/src/social-media/facebook.svg);
+  background-image: url(../src/social-media/facebook.svg);
 }
 
 #c2 {
-  background-image: url(/src/social-media/twitter.svg);
+  background-image: url(../src/social-media/twitter.svg);
 }
 
 #c3 {
-  background-image: url(/src/social-media/youtube.svg);
+  background-image: url(../src/social-media/youtube.svg);
 }
 
 #c4 {
-  background-image: url(/src/social-media/instagram.svg);
+  background-image: url(../src/social-media/instagram.svg);
 }
 
 #c5 {
-  background-image: url(/src/social-media/pinterest.svg);
+  background-image: url(../src/social-media/pinterest.svg);
 }
 
 #c6 {
-  background-image: url(/src/social-media/rss.svg);
+  background-image: url(../src/social-media/rss.svg);
 }
 
 #c7 {
-  background-image: url(/src/social-media/mail.svg);
+  background-image: url(../src/social-media/mail.svg);
 }
 
 .footer-link-wrapper {
@@ -670,13 +670,13 @@ footer {
 #footer-tnw {
   width: 38px;
   height: 9px;
-  background-image: url(/src/tnw-logo.png);
+  background-image: url(../src/tnw-logo.png);
 }
 
 #footer-stackpath {
   width: 65px;
   height: 9px;
-  background-image: url(/src/stackpath.svg);
+  background-image: url(../src/stackpath.svg);
 }
 
 /* general rules using cascade */

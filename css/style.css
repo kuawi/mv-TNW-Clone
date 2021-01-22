@@ -1,0 +1,871 @@
+@import url('https://fonts.googleapis.com/css2?family=Rajdhani&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro&display=swap');
+
+/* general rules */
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  width: 100vw;
+  font-family: Helvetica, sans-serif;
+}
+
+h2 {
+  font-family: sans-serif;
+  font-size: 22px;
+  line-height: 30.8px;
+  color: #f42;
+  padding-top: 30px;
+  padding-bottom: 10px;
+}
+
+section {
+  width: 87.5%;
+  margin: auto;
+}
+
+ul {
+  list-style-type: none;
+}
+
+li {
+  display: inline-block;
+}
+
+a {
+  text-decoration: none;
+}
+
+.time,
+.source {
+  display: inline;
+  font-size: 12px;
+  font-weight: 400;
+  font-family: sans-serif;
+  color: #aaa;
+}
+
+.extra-padding-top {
+  padding-top: 5px;
+}
+
+/* navigation bar */
+
+.top-nav,
+.bottom-nav {
+  width: 100vw;
+}
+
+.top-nav {
+  position: relative;
+  height: 32px;
+  background-color: #131313;
+}
+
+.bottom-nav {
+  position: sticky;
+  top: 0;
+  height: 48px;
+  background-color: white;
+}
+
+.left-menu,
+.right-menu {
+  height: 100%;
+  position: absolute;
+  top: 5px;
+}
+
+.left-menu {
+  left: 10px;
+}
+
+.right-menu {
+  right: 30px;
+}
+
+.link,
+.link-dark {
+  color: rgb(150, 150, 150);
+  font-size: 13px;
+  font-weight: 500;
+  padding-left: 15px;
+}
+
+.link-dark {
+  line-height: 14px;
+}
+
+.link:hover,
+.highlight {
+  color: white;
+}
+
+.link-dark:hover {
+  color: black;
+}
+
+.logo,
+.bottom-menu,
+.nav-icons {
+  position: absolute;
+}
+
+.logo {
+  height: 48px;
+  width: 106px;
+  background-image: url(../src/tnw-logo.png);
+  background-color: black;
+  background-size: 66px 16px;
+  background-repeat: no-repeat;
+  background-position: center;
+  left: 0;
+}
+
+.bottom-menu {
+  left: 110px;
+  top: 14px;
+}
+
+.nav-icons {
+  display: flex;
+  right: 0;
+}
+
+.search {
+  background-image: url(../src/search.svg);
+  background-size: 34%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.burger {
+  background-image: url(../src/menu.svg);
+  background-size: 40%;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.search,
+.burger {
+  height: 48px;
+  width: 48px;
+  border-left: 1px solid #f4f4f4;
+}
+
+/* header  */
+
+header {
+  width: 100vw;
+}
+
+.header1,
+.header2,
+.header3,
+.main-link {
+  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column-reverse;
+  justify-content: flex-end;
+  font-family: sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  margin: 8px;
+}
+
+.header1::after,
+.header2::after,
+.header3::after,
+.main-link::after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.header1 {
+  background-image: url(../src/header1.jpeg);
+}
+
+.header2 {
+  background-image: url(../src/header2.jpeg);
+}
+
+.header3 {
+  background-image: url(../src/header3.jpeg);
+}
+
+.description {
+  background-color: rgba(0, 0, 0, 0.5);
+  color: white;
+  padding: 8px;
+}
+
+.topic,
+.most-popular {
+  text-transform: uppercase;
+  font-family: Rajdhani, sans-serif;
+  font-weight: 800;
+  font-size: 15px;
+}
+
+.author {
+  display: inline;
+  font-size: 11px;
+  color: rgba(255, 255, 255, 0.6);
+  font-weight: 400;
+}
+
+/* latest news section */
+
+.latest-news-wrapper {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  margin-top: 12px;
+}
+
+.latest-news-container-img {
+  width: 100%;
+  height: 100%;
+  padding: 0 5px;
+}
+
+.latest-news-img {
+  width: 75px;
+  height: 75px;
+  box-sizing: border-box;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+}
+
+.latest-news-description {
+  font-family: Helvetica, sans-serif;
+  font-size: 14px;
+  line-height: 18px;
+  font-weight: 700;
+}
+
+#latest1 {
+  background-image: url(../src/latest1.jpeg);
+}
+
+#latest2 {
+  background-image: url(../src/latest2.jpeg);
+}
+
+#latest3 {
+  background-image: url(../src/latest3.jpeg);
+}
+
+#latest4 {
+  background-image: url(../src/latest4.jpeg);
+}
+
+#latest5 {
+  background-image: url(../src/latest5.jpeg);
+}
+
+#latest6 {
+  background-image: url(../src/latest6.jpeg);
+}
+
+#latest7 {
+  background-image: url(../src/latest7.jpeg);
+}
+
+#latest8 {
+  background-image: url(../src/latest8.jpeg);
+}
+
+/* funding rounds section */
+
+.funding-rounds-link {
+  display: block;
+  margin-top: 11px;
+  color: rgb(255, 68, 34);
+  font-weight: 400;
+  line-height: 18px;
+}
+
+.funding-rounds-link:hover {
+  color: black;
+}
+
+.company-info {
+  position: relative;
+  background-color: #fffaf8;
+  margin-top: 20px;
+  z-index: -100;
+}
+
+.company-logo {
+  position: absolute;
+  top: 5%;
+  left: 7.5%;
+  width: 60px;
+  height: 60px;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
+.company-name {
+  background-color: #f42;
+  height: 40px;
+  color: white;
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+  padding: 11px 0 11px 40%;
+}
+
+.amount {
+  background-color: #ffebe7;
+  height: 60px;
+  padding: 11px 0 11px 40%;
+}
+
+.money {
+  font-size: 18px;
+  font-weight: 700;
+  line-height: 22.5px;
+}
+
+.series {
+  font-size: 11px;
+  font-weight: 500;
+  opacity: 0.5;
+  line-height: 16.5px;
+}
+
+.tag-container {
+  padding: 16px;
+}
+
+.tag {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 10px;
+}
+
+.tag-text {
+  font-size: 13px;
+  font-weight: 400;
+  color: black;
+  padding-left: 10px;
+}
+
+.tag-icon {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+.tag-img {
+  background-image: url(../src/tag.svg);
+}
+
+.briefcase-img {
+  background-image: url(../src/briefcase.svg);
+}
+
+.round-info {
+  border-top: 1px solid #fcd4cd;
+  font-size: 12px;
+  font-weight: 400;
+  color: rgb(85, 85, 85);
+  padding: 16px;
+  padding-top: 10px;
+}
+
+#company-1 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1082544001302126592%2FDZPlZneA.jpg&signature=b0ffbb4dbc851b73a68a52564316a4cf");
+}
+
+#company-2 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1303728426877161477%2FNb5ckT_Y.jpg&signature=36cc8c2bc3c89394763de7482b69833c");
+}
+
+#company-3 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F883399784370905091%2FibHr3ZXO.jpg&signature=53a682666e9895102abafc81d692ee40");
+}
+
+#company-4 {
+  background-image: url("https://img-cdn.tnwcdn.com/image?url=https%3A%2F%2Fpbs.twimg.com%2Fprofile_images%2F1338631156921561088%2FDqf2Wp7I.jpg&signature=e4aa39ea4aeaa28966fe140d5d387033");
+}
+
+/* sorted by topic section */
+
+.inner-h2 {
+  padding: 0;
+  margin-top: 20px;
+  margin-bottom: 14px;
+}
+
+.main-link {
+  height: 250px;
+  margin: 0;
+}
+
+.latest,
+.float-img {
+  height: 96px;
+}
+
+.latest {
+  color: rgb(255, 68, 34);
+  background-color: #fff4f2;
+  font-size: 14px;
+  font-weight: 700;
+  padding-left: 10px;
+}
+
+.float-img {
+  float: right;
+  width: 96px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.topic-item {
+  padding: 10px 1em;
+  border-bottom: 1px solid rgb(233, 233, 233);
+  font-size: 13px;
+  font-weight: 400;
+}
+
+.topic-item::before {
+  content: "\2022";  /* Add content: \2022 is the CSS Code/unicode for a bullet */
+  color: red; /* Change the color */
+  font-weight: bold; /* If you want it to be bold */
+  display: inline-block; /* Needed to add space between the bullet and the text */
+  width: 1em; /* Also needed for space (tweak if needed) */
+  margin-left: -1em; /* Also needed for space (tweak if needed) */
+}
+
+#topic-1 {
+  background-image: url(../src/sorted-by-topic/hard-fork.jpeg);
+}
+
+#topic-2 {
+  background-image: url(../src/sorted-by-topic/apps.png);
+}
+
+#topic-3 {
+  background-image: url(../src/sorted-by-topic/gear.jpeg);
+}
+
+#topic-4 {
+  background-image: url(../src/sorted-by-topic/tech.jpeg);
+}
+
+#topic-5 {
+  background-image: url(../src/sorted-by-topic/creative.png);
+}
+
+#topic-6 {
+  background-image: url(../src/sorted-by-topic/podium.jpeg);
+}
+
+#topic-7 {
+  background-image: url(../src/sorted-by-topic/insights.png);
+}
+
+#topic-8 {
+  background-image: url(../src/sorted-by-topic/launch.jpeg);
+}
+
+#topic-9 {
+  background-image: url(../src/sorted-by-topic/distract.jpeg);
+}
+
+#thumb-1 {
+  background-image: url(../src/sorted-by-topic/hard-fork-thumb.jpeg);
+}
+
+#thumb-2 {
+  background-image: url(../src/sorted-by-topic/apps-thumb.jpeg);
+}
+
+#thumb-3 {
+  background-image: url(../src/sorted-by-topic/gear-thumb.jpeg);
+}
+
+#thumb-4 {
+  background-image: url(../src/sorted-by-topic/tech-thumb.jpeg);
+}
+
+#thumb-5 {
+  background-image: url(../src/sorted-by-topic/creative-thumb.jpeg);
+}
+
+#thumb-6 {
+  background-image: url(../src/sorted-by-topic/podium-thumb.jpeg);
+}
+
+#thumb-7 {
+  background-image: url(../src/sorted-by-topic/insights-thumb.jpeg);
+}
+
+#thumb-8 {
+  background-image: url(../src/sorted-by-topic/launch-thumb.jpeg);
+}
+
+#thumb-9 {
+  background-image: url(../src/sorted-by-topic/distract-thumb.jpeg);
+}
+
+/* latest deals section */
+
+.all-deals {
+  float: right;
+  font-size: 14px;
+  color: rgb(255, 68, 34);
+  font-weight: 400;
+}
+
+.crossed {
+  font-size: 10px;
+  text-decoration: line-through;
+}
+
+.latest-deals {
+  margin-bottom: 30px;
+}
+
+#deal1 {
+  background-image: url(../src/deals/deal1.jpeg);
+}
+
+#deal2 {
+  background-image: url(../src/deals/deal2.jpeg);
+}
+
+#deal3 {
+  background-image: url(../src/deals/deal3.jpeg);
+}
+
+#deal4 {
+  background-image: url(../src/deals/deal4.jpeg);
+}
+
+#deal5 {
+  background-image: url(../src/deals/deal5.jpeg);
+}
+
+#deal6 {
+  background-image: url(../src/deals/deal6.jpeg);
+}
+
+#deal7 {
+  background-image: url(../src/deals/deal7.jpeg);
+}
+
+#deal8 {
+  background-image: url(../src/deals/deal8.jpeg);
+}
+
+/* footer */
+
+footer {
+  width: 100vw;
+}
+
+.top-footer {
+  width: 100%;
+  height: 160px;
+  background-color: #131313;
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+}
+
+.circle {
+  border-radius: 50%;
+  background-color: #323232;
+  width: 40px;
+  height: 40px;
+  margin: 30px 2px;
+  padding: 12px;
+}
+
+.icon-16x16 {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  width: 16px;
+  height: 16px;
+}
+
+#c1 {
+  background-image: url(../src/social-media/facebook.svg);
+}
+
+#c2 {
+  background-image: url(../src/social-media/twitter.svg);
+}
+
+#c3 {
+  background-image: url(../src/social-media/youtube.svg);
+}
+
+#c4 {
+  background-image: url(../src/social-media/instagram.svg);
+}
+
+#c5 {
+  background-image: url(../src/social-media/pinterest.svg);
+}
+
+#c6 {
+  background-image: url(../src/social-media/rss.svg);
+}
+
+#c7 {
+  background-image: url(../src/social-media/mail.svg);
+}
+
+.footer-link-wrapper {
+  text-align: center;
+}
+
+.footer-link {
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 500;
+  padding: 0 3px;
+}
+
+.bottom-footer {
+  width: 100%;
+  padding: 32.5px 0;
+  background-color: black;
+  color: rgb(170, 170, 170);
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 19.5px;
+  text-align: center;
+}
+
+#footer-tnw,
+#footer-stackpath {
+  display: inline-block;
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+}
+
+#footer-tnw {
+  width: 38px;
+  height: 9px;
+  background-image: url(../src/tnw-logo.png);
+}
+
+#footer-stackpath {
+  width: 65px;
+  height: 9px;
+  background-image: url(../src/stackpath.svg);
+}
+
+/* general rules using cascade */
+
+.hidden-on-mobile,
+.hidden-on-tablet {
+  display: none;
+}
+
+/* media queries */
+
+@media (min-width: 768px) {
+  .mobile-only {
+    display: none;
+  }
+
+  .hidden-on-mobile {
+    display: block;
+  }
+
+  /* header */
+
+  header {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    gap: 8px;
+    margin: 8px;
+    height: 80vh;
+  }
+
+  .header1,
+  .header2,
+  .header3 {
+    margin: 0;
+    height: 100%;
+    font-size: 1.5vh;
+    font-weight: 700;
+  }
+
+  .header1 {
+    grid-area: 1 / 1 / 3 / 2;
+    font-size: 3vh;
+  }
+
+  .header2 {
+    grid-area: 1 / 2 / 2 / 3;
+  }
+
+  .header3 {
+    grid-area: 2 / 2 / 3 / 3;
+  }
+
+  /* latest news */
+
+  .latest-news-grid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: repeat(3, 1fr);
+  }
+
+  .latest-news-wrapper {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .latest-news-container-img {
+    width: 100%;
+    height: 10vh;
+    padding-bottom: 8px;
+  }
+
+  #latest1,
+  #latest2,
+  #latest3,
+  #latest4,
+  #latest5,
+  #latest6,
+  #latest7,
+  #latest8 {
+    width: 100%;
+    height: 100%;
+  }
+
+  /* funding rounds */
+
+  .funding-rounds-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 15px;
+  }
+
+  .tag-container {
+    height: 35%;
+  }
+
+  /* sorted by topic */
+
+  .sorted-by-topic {
+    margin-top: 30px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 15px;
+  }
+
+  /* latest deals */
+
+  .latest-deals {
+    margin-top: 30px;
+    margin-bottom: 100px;
+  }
+
+  #deal1,
+  #deal2,
+  #deal3,
+  #deal4,
+  #deal5,
+  #deal6,
+  #deal7,
+  #deal8 {
+    width: 100%;
+    height: 100%;
+  }
+}
+
+@media (min-width: 1200px) {
+  .hidden-on-tablet {
+    display: block;
+  }
+
+  /* header */
+
+  .header1,
+  .header2,
+  .header3 {
+    font-size: 2.5vh;
+    font-weight: 700;
+  }
+
+  .header1 {
+    font-size: 5vh;
+  }
+
+  /* latest news */
+
+  .latest-news-grid {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .latest-news-container-img {
+    height: 25vh;
+  }
+
+  /* funding rounds */
+
+  .funding-rounds {
+    margin-top: 50px;
+    position: relative;
+  }
+
+  .funding-rounds-container {
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    gap: 30px;
+  }
+
+  .h2-funding {
+    display: inline;
+  }
+
+  .funding-rounds-link-container {
+    display: inline-flex;
+    position: absolute;
+    right: 0;
+  }
+
+  .funding-rounds-link {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .center-link {
+    border-left: 1px solid rgb(255, 68, 34);
+    border-right: 1px solid rgb(255, 68, 34);
+  }
+
+  /* sorted by topic */
+
+  .sorted-by-topic {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}

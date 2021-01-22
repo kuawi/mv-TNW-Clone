@@ -691,6 +691,7 @@ footer {
   .mobile-only {
     display: none;
   }
+
   .hidden-on-mobile {
     display: block;
   }
@@ -727,7 +728,6 @@ footer {
   .header3 {
     grid-area: 2 / 2 / 3 / 3;
   }
-
 }
 
 @media (min-width: 1200px) {

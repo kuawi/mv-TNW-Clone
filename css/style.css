@@ -712,13 +712,13 @@ footer {
   .header3 {
     margin: 0;
     height: 100%;
-    font-size: 2.5vh;
+    font-size: 1.5vh;
     font-weight: 700;
   }
 
   .header1 {
     grid-area: 1 / 1 / 3 / 2;
-    font-size: 5vh;
+    font-size: 3vh;
   }
 
   .header2 {
@@ -764,6 +764,19 @@ footer {
 @media (min-width: 1200px) {
   .hidden-on-tablet {
     display: block;
+  }
+
+  /* header */
+
+  .header1,
+  .header2,
+  .header3 {
+    font-size: 2.5vh;
+    font-weight: 700;
+  }
+
+  .header1 {
+    font-size: 5vh;
   }
 
   /* latest news */

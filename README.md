@@ -9,7 +9,7 @@
 
 ## Live Demo
 
-[Live Demo Link](https://kuawi.github.io/Project-2-Building-with-Responsive-Design/)
+[Live Demo Link](https://kuawi.github.io/mv-TNW-Clone/)
 
 
 ## Authors
